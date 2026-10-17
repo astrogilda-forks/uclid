@@ -105,7 +105,7 @@ jobs:
       run: sbt universal:packageBin
 
   test-macos:
-    runs-on: macos-13
+    runs-on: macos-15-intel
 
     steps:
     - uses: actions/checkout@v2
